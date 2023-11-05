@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(215, 250, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.container {
+    border: 1px solid rgba(112, 112, 235, 0.678);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+    width: 500px;
+   
+    background-color: white;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(66, 189, 178);
+    padding: 10px;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
